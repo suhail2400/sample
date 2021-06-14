@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(100deg,#59A5E1,#B245EC);
+}
+
+.main {
+    align-items: center;
+    margin:auto;
+    width: 70%;
+    height: 60%;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background:rgb(210, 210, 218);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    display:inline-block;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  
+  .input-field:focus {
+    border: 2px solid black;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+  background-image: linear-gradient(100deg,#59A5E1,#B245EC);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  border:none;
+  cursor: pointer;
+  width: 100%;
+  }
+  
+  .btn:hover {
+    opacity:1;
+  }
+
+  span.pswd{
+        float:right;
+        padding-top:16px;
+    }
+
+    
+    #social [class*="fa fa-facebook-f"] {
+        background-color: #3F5991;
+        border-radius: 40px;
+        color: #fff;
+        height: 40px;
+         line-height: 40px;
+        margin: auto 3px;
+        width: 40px;
+        font-size: 24px;
+         text-align: center;
+   }
+
+   #social [class*="fa fa-twitter"] {
+    background-color:#4CA3EE;
+    border-radius: 40px;
+    color: #fff;
+    height: 40px;
+     line-height: 40px;
+    margin: auto 3px;
+    width: 40px;
+    font-size: 24px;
+     text-align: center;
+}
+
+#social [class*="fa fa-google"] {
+    background-color:#E04E46;
+    border-radius: 40px;
+    color: #fff;
+    height: 40px;
+     line-height: 40px;
+    margin: auto 3px;
+    width: 40px;
+    font-size: 24px;
+     text-align: center;
+}
+
+   /* Change styles for span and cancel button on extra small screens */
+   
